@@ -64,6 +64,20 @@ h2{
 	padding-left: 5%;
 }
 
+h3, th{
+	font-family: 'Cinzel', serif;
+	text-transform: uppercase;
+}
+
+h3{
+	margin: 20px 0 0 0;
+	line-height: 1;
+}
+
+section p{
+	margin: 2px 0;
+}
+
 table{
 	width: 100%;
 	margin-bottom: 40px;
