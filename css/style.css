@@ -1,0 +1,77 @@
+/** style.css - Matthew Smith - project **/
+
+@import url(https://fonts.googleapis.com/css?family=Metrophobic|Cinzel);
+
+/* elements */
+
+body {
+	margin: auto;
+	max-width: 940px;
+	width: 95%;
+	color: #242424;
+	font-family: 'Metrophobic', sans-serif;
+}
+
+h1{
+	text-align: center;
+	font-family: 'Cinzel', serif;
+	font-weight: normal;
+	font-size: 2.5em;
+	margin-bottom: 15px;
+}
+
+address{
+	color: #4F4F4F;
+	margin: 10px auto;
+	text-align: center;	
+}
+
+address p,a{
+	margin: 5px auto;
+}
+
+nav ul{
+	display: table;
+	width: 100%;
+}
+
+nav li{
+	display: table-cell;
+	text-align: center;
+	width: 25%;
+}
+
+nav a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+ul{padding-left: 0px;}
+
+li{list-style-type: none;}
+
+a:default{color: #002D4C;}
+
+a:hover{color: #242424;}
+
+a:active{color: #001E33;}
+
+a:visited{color: #00528C;}
+
+h2{
+	border-bottom: 2px solid #2F2F2F;
+	padding-left: 5%;
+}
+
+table{
+	width: 100%;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+/* ids */
+
+
+
+/* classes */
