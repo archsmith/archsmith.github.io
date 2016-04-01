@@ -87,10 +87,15 @@ h3{
 	line-height: 1;
 }
 
-section p{
+article p{
 	margin: 2px 0;
 	font-size: 14px;
 	font-style: italic;
+}
+
+article li::first-letter{
+	font-weight: 600;
+	color: #414141;
 }
 
 table{
@@ -98,9 +103,3 @@ table{
 	margin-bottom: 40px;
 	text-align: center;
 }
-
-/* ids */
-
-
-
-/* classes */

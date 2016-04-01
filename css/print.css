@@ -1,0 +1,92 @@
+/**	print.css	'print media stylesheet'	**/
+
+*{
+	background: transparent; !important
+	color: black;
+	font-size: 12pt;
+	font-family: serif;
+}
+
+@page {
+	margin: 0.5in;
+}
+
+h1 {
+	text-align: center;
+	font-size: 18pt;
+	font-style: bold;
+}
+
+address {
+	text-align: center;
+	padding: 0pt;
+	line-height: 1;
+}
+
+address a{
+	text-decoration: none;
+}
+
+address[href^="http"] {
+  display: inline;
+}
+
+a[href^=http]:after {
+  content: " (" attr(href) ") "; 
+}
+
+a, a:visited, a:default, a:active, a:hover {
+	color: black;
+}
+
+nav {
+	display: none;
+}
+
+section > ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+h2 {
+	font-size: 16pt;
+	border-bottom: 1pt solid black;
+}
+
+section > ul > li{
+	margin-top: .125in;
+}
+
+article > ul{
+	list-style-type: square;
+}
+
+section p {
+	line-height: 1;
+	font-size: 11pt;
+	margin: 2pt 0pt;
+	font-style: italic;
+}
+
+h3 {
+	font-size: 14pt;
+	line-height: 1;
+	margin: 4pt 0pt;
+}
+
+table {
+	width: 100%;
+	text-align: center;
+}
+
+/* ID */
+
+#email::after {
+	content: " (mattsmith.arch@gmail.com) ";
+}
+
+/* Class */
+
+.web {
+	color: purple;
+}
