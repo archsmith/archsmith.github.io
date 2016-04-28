@@ -17,7 +17,7 @@ html{
 body {
 	width: 95%;
 	padding: 10px 10px;
-	margin: 0 auto;
+	margin: 0 auto 30px	;
 	color: #242424;
 	max-width: 940px;
 	font-family: 'Metrophobic', sans-serif;
@@ -30,6 +30,10 @@ h1{
 	text-align: center;	
 	font-size: 2.5em;
 
+}
+
+h2{
+	text-align: center;
 }
 
 img{ 
@@ -54,33 +58,6 @@ nav a{
 	font-size: 18px;
 }
 
-nav article{
-	width: 33%;
-	max-height: 120px;
-	display: inline-block;
-	vertical-align: center;
-}
-
-nav article img{
-	width: 100%;
-	height: auto;
-	transition: background .5s ease-in-out, opacity .5s ease-in-out;
-	opacity: 0.5;
-	background: repeating-linear-gradient(
-		45deg,
-		#fcfcfc,
-		#fcfcfc 10px,
-		#fff 10px,
-		#fff 20px
-	);
-}
-
-nav article img:hover{
-	transition: background .5s ease-in-out, opacity .5s ease-in-out;
-	opacity: 1;
-	background: #FFF;
-}
-
 ul{padding-left: 0px;}
 
 li{list-style-type: none;}
@@ -93,14 +70,86 @@ a:active{color: #2E2E40;}
 
 a:visited{color: #00528C;}
 
-/* IDs */
+article{
+	border-bottom: #575757 solid 4px;
+}
 
-#title{
+/* CLASSES */
+
+.title{
 	text-align: center;
 	margin-top: 40px;
 }
 
+.title img{
+	margin: 0 auto;
+}
+
+.img-bar{
+	vertical-align: middle;
+	position: relative;
+}
+
+.img-bar img{
+	max-width: 45%;
+	max-height: 95%;
+}
+
+.left{
+	position: static;
+}
+
+.right{
+	position: absolute;
+	right: 0;
+}
+
+img{
+	max-width: 100%
+}
+
+/* IDs */
+
+#embarcadero{
+	background-image: url(../images/embarcadero/embarcadero-model.jpg);
+}
+
+#paris{
+	background-image: url(../images/paris/model.jpg);
+}
+
+#additional{
+	background-image: url(../images/additional/cabinet-top.jpg);
+}
+
+#img-links{
+	text-align: center;
+}
+
+#img-links a{
+	width: 20%;
+	padding: 5px 30px;
+	height: 150px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	background-color: #FFF;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	transition: opacity .5s ease-in-out;
+	color: transparent;
+	opacity: 0.5;
+}
+
+#img-links a:hover{
+	transition: opacity .5s ease-in-out;
+	opacity: 1;
+}
+
 #plans{height: 200px}
+
 #plans img{
 	height: 100%;
 	width: auto;
