@@ -1,0 +1,107 @@
+/** style.css - Matthew Smith - project **/
+
+@import url(https://fonts.googleapis.com/css?family=Metrophobic|Cinzel);
+
+/* elements */
+
+html{
+	background: repeating-linear-gradient(
+		45deg,
+		#fcfcfc,
+		#fcfcfc 10px,
+		#fff 10px,
+		#fff 20px
+	);
+}
+
+body {
+	width: 95%;
+	padding: 10px 10px;
+	margin: 0 auto;
+	color: #242424;
+	max-width: 940px;
+	font-family: 'Metrophobic', sans-serif;
+}
+
+h1{
+	font-family: 'Cinzel', serif;
+	font-weight: normal;
+	margin-bottom: 15px;
+	text-align: center;	
+	font-size: 2.5em;
+
+}
+
+img{ 
+	padding: 5px;
+	background: #FFF;
+}
+
+nav ul{
+	display: table;
+	width: 100%;
+}
+
+nav li{
+	width: 50%;
+	text-align: center;
+	display: table-cell;
+}
+
+nav a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+nav article{
+	width: 33%;
+	max-height: 120px;
+	display: inline-block;
+	vertical-align: center;
+}
+
+nav article img{
+	width: 100%;
+	height: auto;
+	transition: background .5s ease-in-out, opacity .5s ease-in-out;
+	opacity: 0.5;
+	background: repeating-linear-gradient(
+		45deg,
+		#fcfcfc,
+		#fcfcfc 10px,
+		#fff 10px,
+		#fff 20px
+	);
+}
+
+nav article img:hover{
+	transition: background .5s ease-in-out, opacity .5s ease-in-out;
+	opacity: 1;
+	background: #FFF;
+}
+
+ul{padding-left: 0px;}
+
+li{list-style-type: none;}
+
+a{color: #002D4C;}
+
+a:hover{color: #242424;}
+
+a:active{color: #2E2E40;}
+
+a:visited{color: #00528C;}
+
+/* IDs */
+
+#title{
+	text-align: center;
+	margin-top: 40px;
+}
+
+#plans{height: 200px}
+#plans img{
+	height: 100%;
+	width: auto;
+}
